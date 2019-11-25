@@ -1,0 +1,32 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hexcolor{
+  font-size: 2em;
+  text-transform: capitalize;
+}
+
+.hexcode{
+  font-size: 1.6em;
+}
+
+.btn-1{
+  font-size: 1.4em;
+  padding: 5px;
+  color: azure;
+  background-color: #555;
+  border: 3px solid azure;
+  border-radius: 8px;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none; 
+}
+
+.btn-1:hover{
+  background-color: #222;
+}
